@@ -7,7 +7,7 @@ let onDestroyAll = document.querySelector(".js-destroyButton");
 
 onChangeTheme.addEventListener("click", () => {
     body.classList.toggle("darkTheme");
-    onChangeTheme.contains(".darkTheme") === ".darkTheme" ? (onChangeTheme.innerText = "Wyłącz Ciemny Motyw") : (onChangeTheme.innerText = "Włącz Ciemny Motyw");
+    onChangeTheme.innerText === "Włącz Ciemny Motyw" ? (onChangeTheme.innerText = "Wyłącz Ciemny Motyw") : (onChangeTheme.innerText = "Włącz Ciemny Motyw");
 });
 
 onSecretButton.addEventListener("click", () => {
