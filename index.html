@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michał Wodniczak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="containerTable.css">
+    <link rel="stylesheet" href="highlitghtedText.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="js-theme">
+    <div class="container js-container">
+        <header>
+            <h1>Michał Wodniczak</h1>
+            <button class="button button--higlighted js-buttonTheme">Włącz Ciemny Motyw</button>
+            <img class="image"
+                src="https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.6435-9/120141034_3849750538373083_201805530474775284_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=ZElv5_Ongy8AX_XZ6Ve&_nc_ht=scontent.fpoz1-1.fna&oh=041480e3bf9ba881647e475a89858a14&oe=608FB09F"
+                alt="Michał Wodniczak">
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="#o-mnie">O Mnie</a></li>
+                <li><a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+                    <ul class="navigation__list">
+                        <li><a class="navigation__link" href="#piłka-nożna">Piłka nożna</a></li>
+                        <li><a class="navigation__link" href="#wyprawy-górskie">Wyprawy Górskie</a></li>
+                        <li><a class="navigation__link" href="#muzyka">Muzyka</a></li>
+                        <li><a class="navigation__link" href="#esport">Esport</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="o-mnie" class="header">O mnie</h2>
+                <p>Mam na imie <b>Michał</b> i mam <span class="highlitghtedText">25lat.</span> Mieszkam w małej
+                    miejscowości pod
+                    Ostrowem
+                    Wielkopolskim</p>
+                <p>Programowanie interesuje sie już jakiś czas , nawet brałem udział w 1 Edycji kursu na
+                    <strong>YouCode.pl</strong>
+                </p>
+                <p>Jednak wtedy nie wytrwałem do końca kursów z kilku powodów.</p>
+                <p>Gdy zobaczyłem informacje że startuje 2 edycja kursu ucieszyłem się i pomyślałem <i>Just do
+                        it</i> i tak
+                    jestem tu z wami ;)</p>
+            </section>
+            <section>
+                <h2 id="zainteresowania" class="header">Zainteresowania</h2>
+                <h3 id="piłka-nożna" class="header header--higlightedHeader">Piłka Nożna</h3>
+                <img class="image" src="https://zapodaj.net/images/caaddab744d51.jpg" alt="Huragan Szczury">
+                <p>Od bardzo dawna piłka nożna jest dużą cześćią mojego życia</p>
+                <p> od kilku lat gram w klubie o nazwie <b>Huragan Szczury</b></p>
+            </section>
+            <section>
+                <h3 id="wyprawy-górskie" class="header header--higlightedHeader">Wyprawy górskie</h3>
+                <p>Od 3 lat pasjonuje sie wyprawami górskimi i nie wyobrażam sobie innego kierunku na wakcje w
+                    Polsce niż Góry
+                    :)</p>
+                <p>Kliknij w Przycisk poniżej aby zobaczyć gdzie ostatnio byłem ;)</p>
+                <button class="button js-secret">Pokaż zdjęcie</button>
+                <span class="js-hiddenSpan"></span>
+            </section>
+            <section>
+                <h3 id="music" class="header header--higlightedHeader">Muzyka</h3>
+                <img class="image"
+                    src="https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.6435-9/56595401_2602947059720110_2543180539758641152_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=IfCjvAJbn7YAX-TEkkz&_nc_ht=scontent.fpoz1-1.fna&oh=57a36b5ce8014f8357b37e9f1ef899d3&oe=608D9EC8"
+                    alt="O.s.t.r i  Michał Wodniczak">
+                <p>Lubie wszelkiego rodzaju koncerty :D</p>
+                <p>Chociaż w moim sercu głównie jest Rock ;) to nie zamykam sie na inne gatunki muzyczne z
+                    wyjątkiem disco-polo
+                    nie dałbym rady słuchać na codzień)</p>
+                <div class="containerTable">
+                    <table class="containerTable__table">
+                        <caption>Ulubione utwory </caption>
+                        <tr>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="col">Pozycja</th>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="col">Wykonawca</th>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="col">Utwór</th>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="col">Data wydania</th>
+                        </tr>
+                        <tr>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="row">1</th>
+                            <td class="containerTable__Cell">AC/DC</td>
+                            <td class="containerTable__Cell">Thunderstruck</td>
+                            <td class="containerTable__Cell">1990</td>
+                        </tr>
+                        <tr>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="row">2</th>
+                            <td class="containerTable__Cell">Guns N' and Roses</td>
+                            <td class="containerTable__Cell">Welcome to the jungle</td>
+                            <td class="containerTable__Cell">1987</td>
+                        </tr>
+                        <tr>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="row">3</th>
+                            <td class="containerTable__Cell">Nirvana</td>
+                            <td class="containerTable__Cell">Smelss like teen spirit</td>
+                            <td class="containerTable__Cell">1991</td>
+                        </tr>
+                        <tr>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="row">4</th>
+                            <td class="containerTable__Cell" rowspan="2">O.S.T.R</td>
+                            <td class="containerTable__Cell">Mówiłaś mi</td>
+                            <td class="containerTable__Cell">2008</td>
+                        </tr>
+                        <tr>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="row">5</th>
+                            <td class="containerTable__Cell">Po drodze do nieba</td>
+                            <td class="containerTable__Cell">2009</td>
+                        </tr>
+                        <tr>
+                            <th class="containerTable__Cell containerTable__Cell--header" scope="row">6</th>
+                            <td class="containerTable__Cell">O.S.T.R & Hades</td>
+                            <td class="containerTable__Cell">Psychologia tłumu</td>
+                            <td class="containerTable__Cell">2013</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <h3 id="esport" class="header header--higlightedHeader">Esport</h3>
+                <img class="image" src="https://zapodaj.net/images/4c29d2b6c3cba.jpg" alt="Intel Extreme Masters">
+                <p>O esporcie usłyszałem 1 raz w 2013 roku.</p>
+                <p>Przedtem nie zdawałem sobie sprawy że coś takiego istnieje</p>
+                <p>od 2014 roku jeżdżę na najwiekszą esportową impreze w Polsce do Katowic</p>
+                <button class="button js-destroyButton">Usuń Wszystko</button>
+            </section>
+        </main>
+        <footer>
+            <p>2021 &copy;Wszelkie prawa zastrzeżone!&copy;</p>
+        </footer>
+    </div>
+</body>
+
+</html>

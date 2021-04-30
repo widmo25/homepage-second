@@ -1,0 +1,9 @@
+.header {
+    color: #0000ff;
+    text-shadow: 1px 4px 3px #4b404054;
+}
+
+.header--higlightedHeader {
+    color: #dc143c;
+    text-shadow:none;
+}

@@ -1,0 +1,12 @@
+.button {
+    padding: 10px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    border:none;
+    background-color: #ccc;
+}
+
+.button--higlighted{
+    background-color: #1da1a1;
+}
