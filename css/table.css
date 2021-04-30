@@ -1,0 +1,18 @@
+.table__table {
+    max-width: 100%;
+    margin: 25px auto;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.table__cell {
+    border: 2px solid #4c4cee;
+    padding: 20px;
+    background-color: #d83253;
+    color: #e9e3e3;
+}
+
+.table__cell--header {
+    font-weight: normal;
+    color: #000;
+}
