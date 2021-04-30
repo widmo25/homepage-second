@@ -2,21 +2,3 @@
     overflow-x: auto;
 }
 
-.containerTable__table {
-    max-width: 100%;
-    margin: 25px auto;
-    padding: 5px;
-    border-collapse: collapse;
-}
-
-.containerTable__cell {
-    border: 2px solid #4c4cee;
-    padding: 20px;
-    background-color: #d83253;
-    color: #e9e3e3;
-}
-
-.containerTable__cell--header {
-    font-weight: normal;
-    color: #000;
-}
