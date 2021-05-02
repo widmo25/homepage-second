@@ -1,8 +1,8 @@
 ﻿# homepage-second
 
-## Live
+## Live##
 https://widmo25.github.io/homepage-second/
-## Technologies
+## Technologies ##
 **-CSS
 **-HTML
 **-JavaScript
