@@ -3,8 +3,7 @@
 ## Live
 https://widmo25.github.io/homepage-second/
 ## Technologies
-
-1CSS
-2HTML
-3JavaScript
+1.CSS
+1.HTML
+1.JavaScript
 
