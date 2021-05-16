@@ -6,7 +6,7 @@
     const toggleBackground = () => {
         const body = document.querySelector(".js-theme");
         body.classList.toggle("darkTheme");
-        onChangeTheme.innerText === "Włącz Ciemny Motyw" ? (onChangeTheme.innerText = "Wyłącz Ciemny Motyw") : (onChangeTheme.innerText = "Włącz Ciemny Motyw");
+        ChangeTheme.innerText === "Włącz Ciemny Motyw" ? (onChangeTheme.innerText = "Wyłącz Ciemny Motyw") : (onChangeTheme.innerText = "Włącz Ciemny Motyw");
     }
 
     const showHiddenElement = () => {
@@ -29,12 +29,12 @@
 
     const init = () => {
         welcome();
-        const onChangeTheme = document.querySelector(".js-buttonTheme");
-        onChangeTheme.addEventListener("click", toggleBackground);
-        const onSecretButton = document.querySelector(".js-secret");
-        onSecretButton.addEventListener("click", showHiddenElement);
-        const onDestroyAll = document.querySelector(".js-destroyButton");
-        onDestroyAll.addEventListener("click", destroyBody);
+        const ChangeTheme = document.querySelector(".js-buttonTheme");
+        ChangeTheme.addEventListener("click", toggleBackground);
+        const SecretButton = document.querySelector(".js-secret");
+        SecretButton.addEventListener("click", showHiddenElement);
+        const DestroyAll = document.querySelector(".js-destroyButton");
+        DestroyAll.addEventListener("click", destroyBody);
     }
     init();
 };
