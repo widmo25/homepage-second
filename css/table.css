@@ -1,12 +1,12 @@
-.table__table {
-    max-width: 100%;
+.table {
+    max-width: 800px;
     margin: 25px auto;
     padding: 5px;
     border-collapse: collapse;
 }
 
 .table__cell {
-    border: 2px solid #a50d2b;
+    border: 2px solid #000;
     padding: 20px;
     background-color: #a50d2b;
     color: #e9e3e3;
